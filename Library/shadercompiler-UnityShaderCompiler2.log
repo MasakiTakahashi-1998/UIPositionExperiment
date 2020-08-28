@@ -1,6 +1,2 @@
 Base path: '/Applications/Unity/2019.4.8f1/Unity.app/Contents', plugins path '/Applications/Unity/2019.4.8f1/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=14 insize=3182 outsize=7904 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=1484 outsize=800 ok=1
