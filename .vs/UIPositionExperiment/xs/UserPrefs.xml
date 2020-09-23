@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{94E942FD-E293-92F1-FC97-D450AC06C535}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Coffee/Scripts/SceneTransition.cs">
+    <Files>
+      <File FileName="Assets/Coffee/Scripts/Debug/UiSelectChecker.cs" Line="9" Column="27" />
+      <File FileName="Assets/Coffee/Scripts/SceneTransition.cs" Line="8" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UIPositionExperiment" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Coffee" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Debug" expanded="True" />
+                  <Node name="SceneTransition.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="efab0cf9-9c87-44cd-b434-d08396d6841b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

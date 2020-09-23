@@ -4,4 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Coffee/Scenes/SystemSummary.unity
+    guid: 0b1a7ceedbbcd4c8f892ec5f8d361316
+  - enabled: 1
+    path: Assets/Coffee/Scenes/Title.unity
+    guid: a44a3f1862d4f43b492b97e62dddd2d8
+  - enabled: 1
+    path: Assets/Coffee/Scenes/BackGround.unity
+    guid: d91ece0461c264188b94432357929e51
+  - enabled: 1
+    path: Assets/Coffee/Scenes/TouchEffect.unity
+    guid: 7e4446eeebd934d0a83c79068fd5d826
+  - enabled: 1
+    path: Assets/Coffee/Scenes/StdChacarter.unity
+    guid: 3d8b44fc6921d457f975f9521e55d85f
+  - enabled: 1
+    path: Assets/Coffee/Scenes/Main.unity
+    guid: faf4c969618ad4998b6c4ac5477eb86d
+  m_configObjects: {}
