@@ -18,9 +18,18 @@ EditorBuildSettings:
     path: Assets/Coffee/Scenes/TouchEffect.unity
     guid: 7e4446eeebd934d0a83c79068fd5d826
   - enabled: 1
-    path: Assets/Coffee/Scenes/StdChacarter.unity
+    path: Assets/Coffee/Scenes/Main.unity
     guid: 3d8b44fc6921d457f975f9521e55d85f
   - enabled: 1
-    path: Assets/Coffee/Scenes/Main.unity
-    guid: faf4c969618ad4998b6c4ac5477eb86d
+    path: Assets/Coffee/Scenes/Footer.unity
+    guid: 1c7e229aca52943d2a70eeadf626c290
+  - enabled: 1
+    path: Assets/Coffee/Scenes/Character.unity
+    guid: e80bb63df2d0a49b9bb014f55ab64580
+  - enabled: 1
+    path: Assets/Coffee/Scenes/Header.unity
+    guid: 7835c3a05076f473da7aa7bb83581448
+  - enabled: 1
+    path: Assets/Coffee/Scenes/MainButton.unity
+    guid: c32341d88763c4fc4a8ddb78df235fa9
   m_configObjects: {}

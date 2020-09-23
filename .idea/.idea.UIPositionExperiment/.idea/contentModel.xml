@@ -13,8 +13,16 @@
         <e p="Coffee" t="Include">
           <e p="Scripts" t="Include">
             <e p="AnimatorController.cs" t="Include" />
+            <e p="Debug" t="Include">
+              <e p="UiSelectChecker.cs" t="Include" />
+            </e>
             <e p="FixResolution.cs" t="Include" />
             <e p="FixResolution_RenderTexture.cs" t="Include" />
+            <e p="PageBehaviour" t="Include">
+              <e p="FooterUiBehaviour.cs" t="Include" />
+              <e p="TitlePageBehaviour.cs" t="Include" />
+            </e>
+            <e p="SceneTransitionManager.cs" t="Include" />
             <e p="TouchEffectController.cs" t="Include" />
           </e>
         </e>
