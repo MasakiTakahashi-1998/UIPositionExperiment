@@ -65,6 +65,7 @@
      <Compile Include="Assets\Coffee\Scripts\FixResolution_RenderTexture.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\FooterUiBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\TitlePageBehaviour.cs" />
+     <Compile Include="Assets\Coffee\Scripts\PageComponentBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\SceneTransitionManager.cs" />
      <Compile Include="Assets\Coffee\Scripts\TouchEffectController.cs" />
      <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />

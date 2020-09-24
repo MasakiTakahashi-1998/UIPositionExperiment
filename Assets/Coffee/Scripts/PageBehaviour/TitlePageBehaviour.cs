@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TitlePageBehaviour : MonoBehaviour
+public class TitlePageBehaviour : PageComponentBehaviour
 {
-    public void TransitionMain()
-    {
-        SceneTransitionManager.instance.LoadPage("Main");
-    }
+    
 }

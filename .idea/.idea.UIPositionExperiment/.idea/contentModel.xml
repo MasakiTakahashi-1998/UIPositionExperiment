@@ -22,6 +22,7 @@
               <e p="FooterUiBehaviour.cs" t="Include" />
               <e p="TitlePageBehaviour.cs" t="Include" />
             </e>
+            <e p="PageComponentBehaviour.cs" t="Include" />
             <e p="SceneTransitionManager.cs" t="Include" />
             <e p="TouchEffectController.cs" t="Include" />
           </e>
