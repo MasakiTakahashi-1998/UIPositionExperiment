@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32c22dcb832e4904a9ea6148caf0fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 7
 --- !u!1 &926058751
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +518,17 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 733055969}
+          m_MethodName: SelectCommonScene
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Title
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 733055969}
           m_MethodName: TransitionTitle
           m_Mode: 5
           m_Arguments:
@@ -553,6 +565,17 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 733055969}
+          m_MethodName: TransitionTitle
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 7
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 733055969}
@@ -1418,6 +1441,17 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 733055969}
+          m_MethodName: SelectCommonScene
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 7
+            m_FloatArgument: 0
+            m_StringArgument: Main
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 733055969}

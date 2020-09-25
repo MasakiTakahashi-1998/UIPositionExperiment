@@ -15,6 +15,8 @@ public class SceneTransitionManager : MonoBehaviour
     
     private string _nowPage = "";
 
+    private int nowCommonSceneLoadedint = 0;
+
     #region SceneMetaDatas
     /// <summary>
     /// 実際の運用となった場合、AssetBundleの中身を参照して実装するのが適切かと思われる。
@@ -59,53 +61,60 @@ public class SceneTransitionManager : MonoBehaviour
             SceneManager.LoadSceneAsync(variable,LoadSceneMode.Additive);
         }
         
-        LoadPage("Title",false);
+        SceneTransition("Title",0,false);
     }
 
-    public void LoadPage(string nextPagaName,bool unLoadPageScene = true)
+    public void SceneTransition(string nextPagaName,int selectSceneFlagInt,bool unLoadPageScene = true)
     {
         if (nextPagaName == _nowPage) return;
         if (asyncOperations.Count != 0) return;
         
         asyncOperations = new List<AsyncOperation>();
         
-        if (unLoadPageScene)
-        {
-            UnLoadPage(_nowPage,nextPagaName);
-        }
+        // if (unLoadPageScene)
+        // {
+        //     UnLoadPage(_nowPage,nextPagaName);
+        // }
 
+        CommonSceneSelector(selectSceneFlagInt);
+        UnLoadPage(_nowPage);
+        LoadPage(nextPagaName);
+        
         _nowPage = nextPagaName;
-
-        asyncOperations.Add(SceneManager.LoadSceneAsync(nextPagaName,LoadSceneMode.Additive));
-        asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
-        nowActiveScene.Add(nextPagaName);
-
-        if (_pageSceneNameList[nextPagaName] != null)
-        {
-            foreach (var variable in _pageSceneNameList[nextPagaName])
-            {
-                if (!nowActiveScene.Contains(variable))
-                {
-                    asyncOperations.Add(SceneManager.LoadSceneAsync(variable,LoadSceneMode.Additive));
-                    asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
-                    nowActiveScene.Add(variable);
-                }
-            }
-        }
 
         StartCoroutine(SceneTransitionCoroutine());
     }
 
+    public void LoadPage(string nowPagaName)
+    {
+        asyncOperations.Add(SceneManager.LoadSceneAsync(nowPagaName,LoadSceneMode.Additive));
+        asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
+        nowActiveScene.Add(nowPagaName);
+
+        if (_pageSceneNameList[nowPagaName] != null)
+        {
+            foreach (var variable in _pageSceneNameList[nowPagaName])
+            {
+                asyncOperations.Add(SceneManager.LoadSceneAsync(variable,LoadSceneMode.Additive));
+                asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
+                nowActiveScene.Add(variable);
+            }
+        }
+    }
+    
+
     public void UnLoadPage(string nowPagaName)
     {
-        SceneManager.UnloadSceneAsync(nowPagaName);
+        asyncOperations.Add(SceneManager.UnloadSceneAsync(nowPagaName));
+        asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
         nowActiveScene.Remove(nowPagaName);
 
         if (_pageSceneNameList[nowPagaName] != null)
         {
             foreach (var variable in _pageSceneNameList[nowPagaName])
             {
-                SceneManager.UnloadSceneAsync(variable);
+                asyncOperations.Add(SceneManager.UnloadSceneAsync(variable));
+                asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
                 nowActiveScene.Remove(variable);
             }
         }
@@ -166,13 +175,45 @@ public class SceneTransitionManager : MonoBehaviour
 
         return false;
     }
+
+    public void CommonSceneSelector(int selectSceneFlagInt)
+    {
+        foreach (CommonScene Value in Enum.GetValues(typeof(CommonScene)))
+        {
+            if (((int)Value & (byte) selectSceneFlagInt) != 0)
+            {
+                if (((int) Value & (byte) nowCommonSceneLoadedint) == 0)
+                {
+                    asyncOperations.Add(SceneManager.LoadSceneAsync(Value.ToString(),LoadSceneMode.Additive));
+                    asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
+                    nowActiveScene.Add(Value.ToString());
+                }
+            }
+            else
+            {
+                if (((int) Value & (byte) nowCommonSceneLoadedint) != 0)
+                {
+                    asyncOperations.Add(SceneManager.UnloadSceneAsync(Value.ToString()));
+                    asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
+                    nowActiveScene.Remove(Value.ToString());
+                }
+            }
+        }
+
+        nowCommonSceneLoadedint = selectSceneFlagInt;
+    }
 }
 
 public enum CommonScene
 {
-    None = 0,
-    Everything = TouchEffect + BackGround + Footer,
     TouchEffect = 1,
     BackGround = 2,
     Footer = 4
+}
+
+public enum PageScene
+{
+    Title = 1,
+    Main = 7,
+    Character = 7,
 }
