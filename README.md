@@ -11,6 +11,6 @@ Unity標準のUIデザイン用コンポーネントなども盛り込んで製�
 従いまして、unity 2019.3以上のバージョンで利用していただきますよう、よろしくお願いいたします。
 
 ## 利用方法
-Coffee/Scene/FixResolution_Test.sceneを開いてください。
+Coffee/Scene/FirstScene/SystemSummary.sceneを開いてください。
 Device Simulatorを導入している場合、Gameタブの右上がプルダウンに変更されているかと思います。
 それをGame→Simulatorに変更していただくと、Device Simulatorが利用できるようになります。
