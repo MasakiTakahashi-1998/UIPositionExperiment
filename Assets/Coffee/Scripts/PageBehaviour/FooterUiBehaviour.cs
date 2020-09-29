@@ -1,20 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class FooterUiBehaviour : MonoBehaviour
-{
-    
-    [SerializeField]
-    public int index = 7;
-
-    public void SelectCommonScene(int num)
+{   
+    public void TransitionPage(string sceneName)
     {
-        index = num;
-    }
-    
-    public void TransitionTitle(string sceneName)
-    {
-        SceneTransitionManager.instance.SceneTransition(sceneName,index);
+        PageScene pageScene = PageScene.Title;
+        Enum.TryParse(sceneName, out pageScene);
+        SceneTransitionManager.instance.SceneTransition(sceneName,(int)pageScene);
     }
 }

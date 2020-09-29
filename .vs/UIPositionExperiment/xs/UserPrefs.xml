@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{94E942FD-E293-92F1-FC97-D450AC06C535}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Coffee/Scripts/SceneTransition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Coffee/Scripts/PageBehaviour/FooterUiBehaviour.cs">
     <Files>
-      <File FileName="Assets/Coffee/Scripts/Debug/UiSelectChecker.cs" Line="9" Column="27" />
-      <File FileName="Assets/Coffee/Scripts/SceneTransition.cs" Line="8" Column="12" />
+      <File FileName="Assets/Coffee/Scripts/Debug/UiSelectChecker.cs" Line="9" Column="28" />
+      <File FileName="Assets/Coffee/Scripts/PageComponentBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Coffee/Scripts/SceneTransitionManager.cs" Line="65" Column="6" />
+      <File FileName="Assets/Coffee/Scripts/FixResolution.cs" Line="1" Column="1" />
+      <File FileName="Assets/Coffee/Scripts/PageBehaviour/FooterUiBehaviour.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,8 +14,9 @@
             <Node name="Assets" expanded="True">
               <Node name="Coffee" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Debug" expanded="True" />
-                  <Node name="SceneTransition.cs" selected="True" />
+                  <Node name="PageBehaviour" expanded="True">
+                    <Node name="FooterUiBehaviour.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -23,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="efab0cf9-9c87-44cd-b434-d08396d6841b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d86f7d2-7794-47b0-9546-bfeef7f6cbea" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

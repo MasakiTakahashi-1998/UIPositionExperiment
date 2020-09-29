@@ -56,12 +56,7 @@ public class SceneTransitionManager : MonoBehaviour
     {
         instance = this;
         
-        foreach (var variable in _commonSceneNameList)
-        {
-            SceneManager.LoadSceneAsync(variable,LoadSceneMode.Additive);
-        }
-        
-        SceneTransition("Title",0,false);
+        SceneTransition("Title",(int)PageScene.Title, false);
     }
 
     public void SceneTransition(string nextPagaName,int selectSceneFlagInt,bool unLoadPageScene = true)
@@ -70,14 +65,14 @@ public class SceneTransitionManager : MonoBehaviour
         if (asyncOperations.Count != 0) return;
         
         asyncOperations = new List<AsyncOperation>();
-        
-        // if (unLoadPageScene)
-        // {
-        //     UnLoadPage(_nowPage,nextPagaName);
-        // }
+
+        if (unLoadPageScene)
+        {
+            UnLoadPage(_nowPage);
+        }
 
         CommonSceneSelector(selectSceneFlagInt);
-        UnLoadPage(_nowPage);
+        //UnLoadPage(_nowPage);
         LoadPage(nextPagaName);
         
         _nowPage = nextPagaName;
@@ -184,6 +179,7 @@ public class SceneTransitionManager : MonoBehaviour
             {
                 if (((int) Value & (byte) nowCommonSceneLoadedint) == 0)
                 {
+                    Debug.Log($"{(int)Value}:{(byte)nowCommonSceneLoadedint}");
                     asyncOperations.Add(SceneManager.LoadSceneAsync(Value.ToString(),LoadSceneMode.Additive));
                     asyncOperations[asyncOperations.Count - 1].allowSceneActivation = false;
                     nowActiveScene.Add(Value.ToString());
