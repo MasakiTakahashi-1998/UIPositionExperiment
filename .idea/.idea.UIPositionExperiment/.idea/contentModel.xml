@@ -13,11 +13,10 @@
         <e p="Coffee" t="Include">
           <e p="Scripts" t="Include">
             <e p="AnimatorController.cs" t="Include" />
+            <e p="bun.cs" t="Include" />
             <e p="Debug" t="Include">
               <e p="UiSelectChecker.cs" t="Include" />
             </e>
-            <e p="FixResolution.cs" t="Include" />
-            <e p="FixResolution_RenderTexture.cs" t="Include" />
             <e p="PageBehaviour" t="Include">
               <e p="FooterUiBehaviour.cs" t="Include" />
               <e p="TitlePageBehaviour.cs" t="Include" />
@@ -25,6 +24,10 @@
             <e p="PageComponentBehaviour.cs" t="Include" />
             <e p="SceneTransitionManager.cs" t="Include" />
             <e p="TouchEffectController.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="Block.shader" t="Include" />
+            <e p="Unitychan.shader" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
@@ -50,6 +53,15 @@
               <e p="FireFly.shader" t="Include" />
               <e p="Respawn.shader" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Plugin" t="Include">
+          <e p="FixResolution" t="Include">
+            <e p="Editor" t="Include">
+              <e p="EditorTest.cs" t="Include" />
+            </e>
+            <e p="FixResolution.cs" t="Include" />
+            <e p="FixResolution_RenderTexture.cs" t="Include" />
           </e>
         </e>
         <e p="Post Effect Mask" t="Include">

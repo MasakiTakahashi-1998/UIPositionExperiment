@@ -20,13 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b799cfdd-344c-4d8a-ba2c-fdade80575f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UIPositionExperiment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIPositionExperiment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UIPositionExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UIPositionExperiment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Animation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Animation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Animation/New Sprite.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Animation/New Sprite.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Animation/TouchEffect.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Animation/TouchEffect.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scenes/FirstScene/SystemSummary.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Scenes/FirstScene/SystemSummary.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scenes/Page/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Scenes/Page/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution_RenderTexture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution_RenderTexture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coffee/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/54945a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/54945a-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/812374-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/812374-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/1.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/1.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +59,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A68256A8-1266-45B9-A435-BD3E4D7B50AC/4f/90ca5f31/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/TitlePageBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/PageComponentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/AnimatorController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/FooterUiBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/61/e58eaf15/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution_RenderTexture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A68256A8-1266-45B9-A435-BD3E4D7B50AC/cf/1820f669/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Shader/Block.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A68256A8-1266-45B9-A435-BD3E4D7B50AC/a1/7b6876fd/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/bun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A68256A8-1266-45B9-A435-BD3E4D7B50AC/4f/90ca5f31/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/TitlePageBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Shader/Unitychan.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/61/e58eaf15/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugin/FixResolution/Editor/EditorTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/FooterUiBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coffee/Scripts/TouchEffectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugin/FixResolution/FixResolution_RenderTexture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,10 +84,14 @@
         <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/TitlePageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/MainPageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/TitlePageBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Coffee/EnumActionAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/PageComponentBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/PageBehaviour/FooterUiBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/FixResolution.cs" />
+        <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/Editor/EditorTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugin/FixResolution/Editor/EditorTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/bun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" />
       </list>
     </option>
   </component>
@@ -247,13 +277,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs</url>
-          <line>165</line>
+          <line>166</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Coffee/Scripts/SceneTransitionManager.cs" initialLine="161">
             <startOffsets>
-              <option value="5278" />
+              <option value="5309" />
             </startOffsets>
             <endOffsets>
-              <option value="5334" />
+              <option value="5365" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />

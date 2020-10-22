@@ -61,14 +61,14 @@
      <Compile Include="Assets\Animations\Rotator.cs" />
      <Compile Include="Assets\Coffee\Scripts\AnimatorController.cs" />
      <Compile Include="Assets\Coffee\Scripts\Debug\UiSelectChecker.cs" />
-     <Compile Include="Assets\Coffee\Scripts\FixResolution.cs" />
-     <Compile Include="Assets\Coffee\Scripts\FixResolution_RenderTexture.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\FooterUiBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\TitlePageBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageComponentBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\SceneTransitionManager.cs" />
      <Compile Include="Assets\Coffee\Scripts\TouchEffectController.cs" />
      <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+     <Compile Include="Assets\Plugin\FixResolution\FixResolution.cs" />
+     <Compile Include="Assets\Plugin\FixResolution\FixResolution_RenderTexture.cs" />
      <Compile Include="Assets\Post Effect Mask\Scripts\PostEffectMask.cs" />
      <Compile Include="Assets\Post Effect Mask\Scripts\PostEffectMaskRenderer.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -197,6 +197,7 @@
      <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader" />
      <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" />
      <None Include="Assets\UnityChan\Scripts\ImageEffects\Shaders\UTS_EdgeDetect.shader" />
+     <None Include="Assets\Coffee\Shader\Block.shader" />
      <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_Light.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader" />
@@ -215,6 +216,7 @@
      <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_TransClipping_StencilOut.shader" />
      <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
      <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_Transparent.shader" />
+     <None Include="Assets\Coffee\Shader\Unitychan.shader" />
      <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Transparent.shader" />
      <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader" />
      <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader" />

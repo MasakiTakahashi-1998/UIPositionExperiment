@@ -157,6 +157,7 @@ public class SceneTransitionManager : MonoBehaviour
         asyncOperations.ConvertAll(x => x.allowSceneActivation = true);
         
         yield return null;
+        SetCameraClearFlags();
         
         asyncOperations = new List<AsyncOperation>();
     }
@@ -197,6 +198,22 @@ public class SceneTransitionManager : MonoBehaviour
         }
 
         nowCommonSceneLoadedint = selectSceneFlagInt;
+    }
+    private void SetCameraClearFlags()
+    {
+        Camera[] cameras = FindObjectsOfType<Camera>();
+        var maxDepth = cameras.Max(x => x.depth);
+
+        foreach (var value in cameras)
+        {
+            if (Math.Abs(maxDepth - value.depth) > 0)
+            {
+                value.clearFlags = CameraClearFlags.Depth;
+                continue;
+            }
+            value.clearFlags = CameraClearFlags.SolidColor;
+            value.backgroundColor = Color.white;
+        }
     }
 }
 

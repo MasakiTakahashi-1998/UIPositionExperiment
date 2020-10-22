@@ -18,12 +18,10 @@ public class FixResolution : MonoBehaviour
         UpdateRectTransformScale();
     }
     
-#if UNITY_EDITOR || !UNITY_2019_3_OR_NEWER
     void Update()
     {
         UpdateRectTransformScale();
     }
-#endif
     
     /// <summary>
     /// 参照するCanvasScalerとRectTransformを指定する
