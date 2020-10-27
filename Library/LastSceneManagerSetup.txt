@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Coffee/Scenes/Title.unity
+- path: Assets/Coffee/Scenes/FirstScene/SystemSummary.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
