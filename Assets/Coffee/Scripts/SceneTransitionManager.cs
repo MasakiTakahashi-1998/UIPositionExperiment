@@ -12,6 +12,7 @@ public class SceneTransitionManager : MonoBehaviour
     
     public List<string> nowActiveScene = new List<string>();
     public List<AsyncOperation> asyncOperations = new List<AsyncOperation>();
+    public List<Camera> cameras;
     
     private string _nowPage = "";
 
@@ -46,7 +47,8 @@ public class SceneTransitionManager : MonoBehaviour
     
     static readonly List<string> CharacterPageSceneNameList = new List<string>()
     {
-        "Header"
+        "Header",
+        "Tutorial"
     };
     
     #endregion
@@ -57,6 +59,11 @@ public class SceneTransitionManager : MonoBehaviour
         instance = this;
         
         SceneTransition("Title",(int)PageScene.Title, false);
+    }
+
+    private void Update()
+    {
+        SetCameraClearFlags();
     }
 
     public void SceneTransition(string nextPagaName,int selectSceneFlagInt,bool unLoadPageScene = true)
@@ -201,8 +208,8 @@ public class SceneTransitionManager : MonoBehaviour
     }
     private void SetCameraClearFlags()
     {
-        Camera[] cameras = FindObjectsOfType<Camera>();
-        var maxDepth = cameras.Max(x => x.depth);
+        cameras = FindObjectsOfType<Camera>().Where(x => x.targetTexture == null).ToList();
+        var maxDepth = cameras.Min(x => x.depth);
 
         foreach (var value in cameras)
         {

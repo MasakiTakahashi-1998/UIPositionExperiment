@@ -4,7 +4,9 @@
     <e p="$PROJECT_DIR$/../Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$/../Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_UIPositionExperiment.296447950.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Animations" t="Include">
@@ -13,10 +15,11 @@
         <e p="Coffee" t="Include">
           <e p="Scripts" t="Include">
             <e p="AnimatorController.cs" t="Include" />
-            <e p="bun.cs" t="Include" />
             <e p="Debug" t="Include">
               <e p="UiSelectChecker.cs" t="Include" />
             </e>
+            <e p="FixResolution_RenderTexture.cs" t="Include" />
+            <e p="gga.cs" t="Include" />
             <e p="PageBehaviour" t="Include">
               <e p="FooterUiBehaviour.cs" t="Include" />
               <e p="TitlePageBehaviour.cs" t="Include" />
@@ -24,6 +27,7 @@
             <e p="PageComponentBehaviour.cs" t="Include" />
             <e p="SceneTransitionManager.cs" t="Include" />
             <e p="TouchEffectController.cs" t="Include" />
+            <e p="TriggerDebug.cs" t="Include" />
           </e>
           <e p="Shader" t="Include">
             <e p="Block.shader" t="Include" />
@@ -55,13 +59,12 @@
             </e>
           </e>
         </e>
-        <e p="Plugin" t="Include">
+        <e p="Plugins" t="Include">
           <e p="FixResolution" t="Include">
             <e p="Editor" t="Include">
-              <e p="EditorTest.cs" t="Include" />
+              <e p="FixResolutionEditor.cs" t="Include" />
             </e>
             <e p="FixResolution.cs" t="Include" />
-            <e p="FixResolution_RenderTexture.cs" t="Include" />
           </e>
         </e>
         <e p="Post Effect Mask" t="Include">
@@ -461,7 +464,18 @@
             <e p="UnityChanControlScriptWithRgidBody.cs" t="Include" />
           </e>
         </e>
+        <e p="UnmaskForUGUI-upm" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ImportSampleMenu.cs" t="Include" />
+            </e>
+            <e p="UnMask.cs" t="Include" />
+            <e p="UnmaskRaycastFilter.cs" t="Include" />
+          </e>
+        </e>
       </e>
+      <e p="Coffee.UnmaskForUGUI.csproj" t="IncludeRecursive" />
+      <e p="Coffee.UnmaskForUGUI.Editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />

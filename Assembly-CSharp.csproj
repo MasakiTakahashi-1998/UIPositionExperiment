@@ -61,14 +61,15 @@
      <Compile Include="Assets\Animations\Rotator.cs" />
      <Compile Include="Assets\Coffee\Scripts\AnimatorController.cs" />
      <Compile Include="Assets\Coffee\Scripts\Debug\UiSelectChecker.cs" />
+     <Compile Include="Assets\Coffee\Scripts\FixResolution_RenderTexture.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\FooterUiBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageBehaviour\TitlePageBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\PageComponentBehaviour.cs" />
      <Compile Include="Assets\Coffee\Scripts\SceneTransitionManager.cs" />
      <Compile Include="Assets\Coffee\Scripts\TouchEffectController.cs" />
+     <Compile Include="Assets\Coffee\Scripts\TriggerDebug.cs" />
+     <Compile Include="Assets\Coffee\Scripts\gga.cs" />
      <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-     <Compile Include="Assets\Plugin\FixResolution\FixResolution.cs" />
-     <Compile Include="Assets\Plugin\FixResolution\FixResolution_RenderTexture.cs" />
      <Compile Include="Assets\Post Effect Mask\Scripts\PostEffectMask.cs" />
      <Compile Include="Assets\Post Effect Mask\Scripts\PostEffectMaskRenderer.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -907,6 +908,16 @@
  <Reference Include="Boo.Lang">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{97E87D8E-A7F6-A31B-A942-5BCE98C8567D}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.UnmaskForUGUI.csproj">
+      <Project>{883A7AD0-CAF9-B534-A750-374C2ED0CCE2}</Project>
+      <Name>Coffee.UnmaskForUGUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

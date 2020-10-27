@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Coffee/Scenes/Page/MainButton.unity
     guid: c32341d88763c4fc4a8ddb78df235fa9
+  - enabled: 1
+    path: Assets/Coffee/Scenes/Common/Tutorial.unity
+    guid: a33ba487186784156b74db9b17333e72
   m_configObjects: {}
